@@ -1,0 +1,26 @@
+html{
+  font-size: 10px;
+}
+.App {
+  text-align: center;
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+.box-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2px;
+  margin: 0px;
+}
+.button-rock{
+  height: 5rem;
+  width: 5rem;
+}
+img{
+  height: 3rem;
+  width: 3rem;
+}
